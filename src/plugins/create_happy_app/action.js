@@ -8,7 +8,7 @@ const ejs = require('ejs');
 const boxen = require('boxen');
 const ora = require('ora');
 const Util = require('../../lib/util');
-const HAPPY_NODE_TEMPLATE = 'https://github.com/youzan/zan-template/archive/master.zip';
+const HAPPY_NODE_TEMPLATE = 'https://github.com/cilla123/happy-template/archive/master.zip';
 
 module.exports = function(projectName, command) {
     if (fs.existsSync(projectName)) {
