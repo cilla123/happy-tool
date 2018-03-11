@@ -10,7 +10,7 @@ module.exports = {
         console.log();
     },
     action: () => {
-        // opn('https://www.youzanyun.com/zan-node');
+        opn('https://github.com/cilla123/happy-node');
         process.exit(0);
     }
 };

@@ -1,6 +1,6 @@
 {
     "name": "happy-tool",
-    "version": "0.0.5",
+    "version": "0.0.6",
     "description": "Happy Node 框架配套开发工具",
     "main": "./src/index.js",
     "bin": {
