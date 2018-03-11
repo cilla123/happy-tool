@@ -6,7 +6,7 @@ const download = require('download');
 const ejs = require('ejs');
 const ora = require('ora');
 const Util = require('../../lib/util');
-const NODE_MODULE_TEMPLATE = 'https://github.com/kk0829/node-module-template/archive/master.zip';
+const NODE_MODULE_TEMPLATE = 'https://github.com/cilla123/happy-node-module-template/archive/master.zip';
 
 module.exports = function (moduleName) {
     if (fs.existsSync(moduleName)) {
